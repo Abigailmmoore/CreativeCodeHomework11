@@ -8,7 +8,7 @@ let shrinkGrow = 0.3
 let ladyX = 0.5
 
 function setup() {
-  createCanvas(600, 800);
+  canvas = createCanvas(600, 800);
 }
 
 function draw() {
