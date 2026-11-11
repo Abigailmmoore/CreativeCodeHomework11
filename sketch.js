@@ -9,6 +9,8 @@ let ladyX = 0.5
 
 function setup() {
   canvas = createCanvas(600, 800);
+  canvas.parent("sketch-holder");
+  canvas.class("home");
 }
 
 function draw() {

@@ -1,17 +1,38 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rouge+Script&display=swap');
+
+
+html, 
+
+body {
   margin: 0;
   padding: 0;
+  background-color: rgb(131, 230, 86);
 }
+
 canvas {
   display: block;
+  padding: 10px;
+  margin: auto;
+}
+
+div.intro {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
 h1 {
   text-align: center;
+  font-family: "Rouge Script";
+  font-weight: 100;
+  font-size: 50px;
+  font-style: normal;
 }
 
 p {
-  text-align: center;
+  font-family: "PT Serif";
+  font-size: 20px;
 }
 
 a {
